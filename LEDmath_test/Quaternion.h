@@ -7,6 +7,8 @@ public:
 	Quaternion(double w, double x, double y, double z);
 	Quaternion(double w, Vector vec);
 	Quaternion(Vector vec);
+	Quaternion();
+
 	//Methods
 	inline Quaternion conjugate() const {
 		return Quaternion(getW(), -getX(), -getY(), -getZ());

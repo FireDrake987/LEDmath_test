@@ -6,6 +6,7 @@ private:
 
 public:
 	Point3D(double x, double y, double z);
+	Point3D();
 
 	//Operators
 	inline Point3D operator+(const Point3D& other) const {

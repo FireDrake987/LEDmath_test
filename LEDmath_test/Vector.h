@@ -8,6 +8,7 @@ public:
 	Vector(double Vx, double Vy, double Vz);
 	Vector(Point3D start, Point3D end);
 	Vector(Point3D fromPoint);
+	Vector();
 
 	//Methods
 	inline Vector cross(const Vector& other) const {
